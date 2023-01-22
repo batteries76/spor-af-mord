@@ -1,0 +1,215 @@
+body
+    {
+      font-family: georgia, serif;
+      font-size: 1.063em;
+      line-height: 1.5em;
+      color: #000;
+      background: #383838;
+    }
+
+    a
+    {
+      background: inherit;
+      color: #000;
+      text-decoration: none;
+    }
+
+    a.navigation
+    {
+      color: #484848;
+    }
+
+    p.navigation
+    {
+      margin-bottom: 10px;
+    }
+
+    a.noteref
+    {
+      color: #484848;
+    }
+
+    a.annoref
+    {
+      color: #484848;
+    }
+
+    a:hover
+    {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    a.navigation:hover
+    {
+      color: #000;
+    }
+
+    a.noteref:hover
+    {
+      color: #000;
+    }
+
+    a.annoref:hover
+    {
+      color: #000;
+    }
+
+    h1
+    {
+      font-size: 1.7em;
+      color: #000;
+      line-height: normal;
+    }
+
+    h2
+    {
+      font-size: 1.3em;
+      color: #000;
+    }
+
+
+    h3, h4, h5
+    {
+      font-size: 1em;
+    }
+
+    span.navigation
+    {
+      color: #484848;
+      text-decoration:none;
+    }
+
+    .imggroup p
+    {
+      font-style: italic;
+    }
+
+    div.previewlabel
+    {
+      color: #000;
+      background: #eee;
+      border: 1px solid #585858;
+      padding: 20px;
+    }
+    
+    div.contenttable
+    {
+      position: absolute;
+      left: 10px;
+      line-height: 1.3em;
+      margin-top: 10px;
+      width: 270px;
+      background: #f8f8f8;
+      padding: 0px 20px;
+      visibility: hidden;
+      height: 97%;
+      overflow: auto;
+    }
+
+    div.book
+    {
+      position: absolute;
+      left: 330px;
+      top: 10px;
+      width: 650px;
+      background: #fff;
+      border: solid 2px #ebebeb;
+      padding: 30px 50px;
+    }
+
+    div.dir
+    {
+      margin-left: 30px;
+    }
+
+    div.sidebar hr.pagenum
+    {
+      /* Sidebar border (1px) - Sidebar padding (20px) - normal positioning (52px) */
+      left: -73px;
+    }
+
+    hr.pagenum
+    {
+      position: relative;
+      left: -52px;
+      height: 10px;
+      width: 754px;
+      -webkit-margin-before: 35px;
+      -webkit-margin-after: 20px;
+      background: #383838;
+      border-top: solid 2px #ebebeb;
+      border-bottom: solid 2px #ebebeb;
+      border-left: none;
+      border-right: none;
+      margin: 20px 0;
+    }
+
+    p.p_seperator
+    {
+      text-align:center;
+      font-size:1em;
+    }
+
+    p.pagenum
+    {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      color: #585858;
+      -webkit-margin-before: 20px;
+      -webkit-margin-after: 20px;
+    }
+
+    p.hd
+    {
+      font-weight:bold;
+    }
+
+    div.poem
+    {
+      border: solid 1px #484848;
+      padding: 10px;
+    }
+
+    div.sidebar
+    {
+      color: #000;
+      background: #eee;
+      border: 1px solid #585858;
+      padding: 20px;
+    }
+
+    table
+    {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    table, tbody, td, tr, th
+    {
+      border: solid 1px #484848;
+      border-collapse: collapse;
+      text-align:center;
+      padding: 3px;
+    }
+
+    hr.note
+    {
+      background: #000;
+      height: 1px;
+      border: none;
+    }
+
+    div.note
+    {
+      color: #000;
+      font-size: 0.75em;
+      line-height: 1.5em;
+      font-style: italic;
+    }
+
+    .imggroup
+    {
+      border: none !important;
+    }
